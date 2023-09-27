@@ -1,0 +1,70 @@
+div {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+    width:auto;
+    height:50%;
+
+
+    #googlelogo {
+        position:relative;
+        left:50%;
+        transform: translate(-50%, 0);
+        width: 300px;
+    }
+
+
+    form {
+        position:relative;
+        top:20px;
+
+        
+            
+        #searchicon {
+            background-image: url(images/searchicon.png);
+            background-repeat: no-repeat;
+            background-size: 30px 30px;
+
+        }
+      
+        
+
+        #searchbox {
+            position:relative;
+            left:50%;
+            transform: translate(-50%, 0);
+    
+            border-radius: 30px;
+            border:1px solid hsl(0, 0%, 47%);
+            outline:none;
+    
+            width:600px;
+            height:40px;
+    
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-weight:400;
+            padding-left: 40px;
+
+            background-image: url(images/searchicon.png);
+            background-repeat: no-repeat;
+            background-size: 30px 30px;
+            background-position: 5px;
+
+        }
+    
+        #searchbox:hover {
+            box-shadow: 0 0 1px 1px rgb(126, 126, 126);
+        }
+
+        #submit {
+            position:absolute;
+            left:30%;
+
+
+        }
+    }    
+}
+
