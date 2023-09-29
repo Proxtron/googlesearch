@@ -1,4 +1,4 @@
-div {
+.center {
     position:absolute;
     top:50%;
     left:50%;
@@ -19,18 +19,8 @@ div {
     form {
         position:relative;
         top:20px;
-
-        
+        height:100px;
             
-        #searchicon {
-            background-image: url(images/searchicon.png);
-            background-repeat: no-repeat;
-            background-size: 30px 30px;
-
-        }
-      
-        
-
         #searchbox {
             position:relative;
             left:50%;
@@ -61,10 +51,30 @@ div {
 
         #submit {
             position:absolute;
-            left:30%;
+            left:50%;
 
-
+            top:100%;
+            transform:translate(-50%, -50%);
+            width:150px; 
+            aspect-ratio: 125/30;
+            border: none;
+            border-radius: 4px;
+            background-color: rgb(241, 241, 241);
+            font-size: 16px;
         }
     }    
 }
 
+.links {
+    position:absolute;
+    right: 0%;
+    top:0%;
+    margin:30px;
+
+    a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color:rgb(73, 73, 73);
+        margin: 10px;
+    }
+}
