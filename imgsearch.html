@@ -3,8 +3,32 @@
     <head>
         <title>Image Search</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="imgsearchstyles.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <p>Test Image</p>
+        <!-- Central elements -->
+        <div class="center">
+            <!-- Logo-->
+            <img id="googlelogo" src="images/googlelogo.png" alt="Google">
+            <p>Images</p>
+            <!-- Form: Search box and submit button-->
+            <form action="https://images.google.com/images">
+                
+                <input id="searchbox" type="text" name="q" placeholder="Search...">
+                <input id="submit" type="submit" value="Image Search">
+
+            </form>
+        </div>
+
+        <!--Upper Right: Image search and Advanced search links-->
+        <div class="links">
+
+            <!--<a href="index.html">Google Search</a>-->
+            <a href="https://proxtron.github.io/googlesearch/index.html">Google Search</a>
+        </div>
     </body>
 </html>
