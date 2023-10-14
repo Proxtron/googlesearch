@@ -3,10 +3,18 @@ body {
     font-family: 'Roboto', sans-serif;
 
     #header {
-        p {
+        #advanced_search {
             font-size: 25px;
             color: rgb(173, 50, 0);
             padding-left: 4vh;
+        }
+        #google_search {
+            position:absolute;
+            right:10px;
+            top:30px;
+            transform: translate(-50%, 0);
+            color: rgb(74, 74, 74);
+            text-decoration: none;
         }
     }
 
