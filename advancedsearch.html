@@ -3,8 +3,32 @@
     <head>
         <title>Image Search</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="advancedstyles.css" rel="stylesheet">
     </head>
     <body>
-        <p>Test Advanced</p>
+        <div id="header">
+            <p>Advanced Search</p>
+            <hr>
+        </div>
+        
+        <form id="search" action="https://www.google.com/search">
+            <div class="prompts">
+                <p id="find_pages">Find pages with...</p>
+                <p class="prompt">all these words:</p>
+                <p class="prompt">this exact word or phrase:</p>
+                <p class="prompt">any of these words:</p>
+                <p class="prompt">none of these words:</p>
+            </div>
+            <div class="boxes">
+                <input id="first_search_box" type="text" name="as_q"> 
+                <input class="search_box" type="text" name="as_epq"> 
+                <input class="search_box" type="text" name="as_oq"> 
+                <input class="search_box" type="text" name="as_eq"  > 
+            </div>
+            <input id="submit_button" type="submit" value="Advanced Search">
+        </form>
+
     </body>
 </html>
